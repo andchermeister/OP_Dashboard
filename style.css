@@ -40,14 +40,16 @@
 .sidebar {
     height: 100vh;
     width: 20vw;
-    background-color: #00BFFF;
+    background-color: rgb(54, 175, 250);
 }
 
 .logo-img {
     width: 50px;
 }
 
-.sidebar-img {
+.sidebar-img,
+.header-img,
+.main-img {
     width: 25px;
 }
 
@@ -81,15 +83,157 @@
 /* Header styling */
 
 .header {
-    height: 20vh;
+    height: 22vh;
     width: 80vw;
     background-color: white;
+}
+
+.searchbar {
+    width: 500px;
+    height: 25px;
+    background-color: rgb(223, 228, 233);
+    border-radius: 15px;
+}
+
+.small-account-img {
+    width: 35px;
+}
+
+.large-account-img {
+    width: 75px;
+}
+
+.header-button {
+    margin-top: 40px;
+    background-color: rgb(54, 175, 250);
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.hi-there {
+    margin-top: 20px;
+}
+
+.upper-header {
+    margin-left: 40px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 40px 900px 50px 65px 50px;
+}
+
+.lower-header {
+    margin-left: 40px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 90px 670px 120px 120px 120px;
 }
 
 /* Main styling */
 
 .main {
-    height: 80vh;
+    height: 78vh;
     width: 80vw;
-    background-color: rgb(243, 244, 246);
+    background-color: rgb(223, 228, 233);
+    display: grid;
+    grid-template-columns: 900px 300px;
 }
+
+.main-left {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main-right {
+    margin-top: 20px;
+}
+
+.project {
+    margin-top: 10px;
+    padding: 20px 50px 30px 20px;
+    width: 380px;
+    height: 160px;
+    background-color: white;
+    border: 0px;
+    border-radius: 15px;
+    box-shadow: -3px 0px rgb(229, 147, 16);
+}
+
+.project-icons {
+    margin-top: 20px;
+    margin-left: 220px;
+    display: grid;
+    grid-template-columns: 45px 45px 45px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 170px 170px 170px;
+}
+
+.announcements {
+    margin-top: 10px;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border: none;
+    border-radius: 15px;
+}
+
+.anns-grid {
+    padding: 20px 10px 20px 10px;
+}
+
+.announcement {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.ann-description {
+    font-size: 12px;
+    width: 200px;
+}
+
+.separator {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 210px;
+    height: 1px;
+    background-color: rgb(189, 189, 189);
+}
+
+.trending {
+    margin-top: 10px;
+    width: 250px;
+    height: 170px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+.trending-info {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.trendings-grid {
+    display: grid;
+    grid-template-columns: 40px 150px;
+    grid-template-rows: 80px 80px;
+}
+
+.trending-img {
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 35px;
+}
+
+.trending-header  {
+    margin-top: 10px;
+}
+
+
